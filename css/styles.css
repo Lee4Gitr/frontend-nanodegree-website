@@ -1,0 +1,41 @@
+img, embed, object, video {
+	max-width: 100%;
+}
+
+logo {
+	max-width: 100px;
+	max-height: 100px;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	color: #747704;
+	font-weight: 300;
+}
+
+.text-muted {
+	color: #BCBBBB;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.title-super {
+	font-size: 60px;
+}
+
+.title-logo {
+	margin-top: 20px;
+}
+
+@media screen and (max-width: 540px) {
+	.title-super{
+		font-size: 12px;
+		margin: .5em;
+	}
+	.title-logo {
+		margin-top: .5em;
+	}
+	
+}
